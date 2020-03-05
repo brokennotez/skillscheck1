@@ -5,16 +5,19 @@
 //Create an array called 'groceries' that contains three grocery items as strings. 
 
 // Code Here
-
+var groceries = ["milk", "juice","bread"]
 //////////////////STEP 2////////////////////
 //Create a variable called 'yourName' that is assigned the value of your name as a string. 
 
 // Code Here
-
+var yourname = ('xavier')
 //////////////////STEP 3////////////////////
 //Create a function called 'setGroceryListTitle' that takes in one parameter called 'x'. The function should return a string of 'XPARAM's Grocery List'.
 
 // Code Here
+let x =  ["milk", "juice","bread"]
+function setGroceryListTitle (x)
+return (x)
 
 //////////////////STEP 4////////////////////
 //Create a function called 'addItem' that takes in one parameter called 'item'. Add the item parameter to the end of the groceries array created above. Inside of addItem, invoke displayData() which is a function you did not create (we did) that takes care of some of the work for getting your page to display correctly.
